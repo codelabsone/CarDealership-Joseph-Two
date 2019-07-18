@@ -1,10 +1,15 @@
 class Car_Dealership
 def initialize(manufacturer, make, sold, price)
-    @munufacturer
-    @make
-    @sold
-    @price
+    @munufacturer = manufactured_year
+    @make = make
+    @sold = sold_year
+    @price = price
   end
+
+def to_s
+  "This car was manufactured in #{@manufacturer}.  Its make is #{@make}.
+   It was sold in #{@sold}.  It's price was #{@price}."
+end
 
 end
 
