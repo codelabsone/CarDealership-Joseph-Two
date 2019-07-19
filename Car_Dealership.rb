@@ -1,5 +1,10 @@
 class Car_Dealership
+<<<<<<< HEAD
 def initialize(manufacturer, make, sold, price, status)
+=======
+
+def initialize(manufacturer, make, sold, price)
+>>>>>>> bcb24dd55082bc2088cc9f4e39f285453c7a5267
     @manufacturer = manufacturer
     @make = make
     @sold = sold
@@ -14,5 +19,10 @@ end
 
 end
 
+<<<<<<< HEAD
 car1 = Car_Dealership.new(2013,"Chevrolet",2017,20000,"used")
+=======
+car1 = Car_Dealership.new(2015,"Chevrolet", 2017, 20000)
+>>>>>>> bcb24dd55082bc2088cc9f4e39f285453c7a5267
 puts car1
+hello
