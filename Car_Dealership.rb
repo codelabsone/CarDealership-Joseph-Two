@@ -13,5 +13,5 @@ end
 
 end
 
-car1 = Car_Dealership.new(2015,"Chevrolet",2017,20000)
-puts car1 
+car1 = Car_Dealership.new(2013,"Chevrolet",2017,20000)
+puts car1
