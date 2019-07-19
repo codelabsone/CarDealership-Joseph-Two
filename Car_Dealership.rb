@@ -1,3 +1,14 @@
+class Car_Dealership
+def initialize(manufacturer, make, sold, price)
+    @munufacturer
+    @make
+    @sold
+    @price
+  end
+
+end
+
+
 puts "Car dealership"
 <<<<<<< HEAD
 Car = "Make_of_Car, car_name"
