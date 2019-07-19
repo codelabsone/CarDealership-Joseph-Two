@@ -3,7 +3,7 @@ class Car_Dealership
 def initialize(manufacturer, make, sold, price, status)
 =======
 
-def initialize(manufacturer, make, sold, price)
+def initialize(manufacturer, make, sold, price, status)
 >>>>>>> bcb24dd55082bc2088cc9f4e39f285453c7a5267
     @manufacturer = manufacturer
     @make = make
