@@ -1,8 +1,8 @@
 class Car_Dealership
-def initialize(manufacturer, make, sold, price)
-    @manufacturer = manufactured_year
+def initialize(manufactured, make, sold, price)
+    @manufacturer = manufactured
     @make = make
-    @sold = sold_year
+    @sold = sold
     @price = price
   end
 
@@ -13,5 +13,5 @@ end
 
 end
 
-car1 = Car_Dealership.new (2015,"Chevrolet", 2017, 20000)
+car1 = Car_Dealership.new(2015,"Chevrolet", 2017, 20000)
 puts car1
