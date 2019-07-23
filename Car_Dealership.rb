@@ -1,29 +1,24 @@
 class Car_Dealership
-<<<<<<< HEAD
-def initialize(manufacturer, make, sold, price, status)
-=======
 
-def initialize(manufacturer, make, sold, price, status)
->>>>>>> bcb24dd55082bc2088cc9f4e39f285453c7a5267
-    @manufacturer = manufacturer
-    @make = make
-    @sold = sold
-    @price = price
-    @status = status
-  end
+def initialize(make, year_sold, year_sold_price, price, resell)
+  @make = make
+  @yearsoldprice = year_sold_price
+  @yearsold = year_sold
+  @price = price
+  @resell = resell
+end
+
 
 def to_s
-  "This car was manufactured in #{@manufacturer}.  Its make is #{@make}.
-   It was sold in #{@sold}.  It's price was #{@price}. This is a #{@status} vehicle."
-end
+  "This car was manufactured in #{@manufacturer}.  Its make is a #{@make}.
+   It was sold in #{@sold} for #{@yearsoldprice}.  It's current list price is #{@price}."
+ end
 
 end
 
-<<<<<<< HEAD
 car1 = Car_Dealership.new(2013,"Chevrolet",2017,20000,"used")
-=======
 
 car2 = Car_Dealership.new(2000,"Ford",1999,10000,"new")
-puts car2
 
-puts car1.make
+puts car1.to_s
+puts car2.to_s
