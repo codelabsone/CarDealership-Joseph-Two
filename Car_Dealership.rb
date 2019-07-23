@@ -29,3 +29,4 @@ car2 = Car_Dealership.new(2000,"Ford",1999,10000,"new")
 puts car2
 
 hello
+hi
