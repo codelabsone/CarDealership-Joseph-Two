@@ -10,7 +10,7 @@ end
 
 
 def to_s
-  "The #{@manufacturer} #{@make} sold for #{@yearsoldprice} in the year of #{@yearsold}, the current resell value is #{@resll}"
+  "The #{@manufacturer} #{@make} sold for #{@yearsoldprice} in the year of #{@yearsold}, the current resell value is #{@resell}"
  end
 
 end
