@@ -22,4 +22,3 @@ end
 
 car = Sell_Price.new(10000)
 car.dents
-car.stains
