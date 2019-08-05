@@ -1,21 +1,21 @@
-class Car_Dealership
+require_relative 'Car'
 
-def initialize(make, year_sold, year_sold_price, resell, manufacturer)
-  @make = make
-  @yearsoldprice = year_sold_price
-  @yearsold = year_sold
-  @resell = resell
-  @manufacturer = manufacturer
+class Dealership
+  attr_accessor :title
+
+def initialize(title)
+  @title = title
 end
 
-
-def to_s
-  "The #{@manufacturer} #{@make} sold for #{@yearsoldprice} in the year of #{@yearsold}, the current resell value is #{@resell}"
- end
-
+def add_car(a_car)
+  @car.push(a_car)
 end
 
-car1 = Car_Dealership.new("truck", 2000, "$35000", "$5000", "Chevy")
+def remove_car(a_car)
+  @car.pop(a_car)
 
+end
+end
 
-puts car1.to_s
+deals = Dealership.new("Deals")
+puts "The name of the dealership is #{deals.title}."
