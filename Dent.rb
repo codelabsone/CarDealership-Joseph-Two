@@ -20,5 +20,5 @@ def accident
 end
 end
 
-car = Sell_Price.new(10000)
+car = Sell_Price.new(20000)
 car.dents
