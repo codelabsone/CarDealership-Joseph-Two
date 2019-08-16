@@ -1,5 +1,6 @@
+
 class Car
-  attr_reader :price, :year
+  attr_reader :price, :year, :manufacturer
 
   def initialize(price, year, manufacturer)
     @price = price
@@ -10,5 +11,4 @@ class Car
   def car_info
     "#{@price}, #{@year}, #{@manufacturer}"
   end
-
 end

@@ -24,20 +24,9 @@ require_relative 'Data'
     car5 = Car.new(18740, 2017,"Honda")
     puts car5.car_info.center(50)
 
-
-    puts car1.price
-
-
-    #loop do
-      #puts "Pick your Car from the list. (Use 1 through 5)"
-      #answer = gets.chomp.downcase
-      #case answer
-     # when /^\d+$/
-     # (?)
-     # when '1', '2', '3', '4', '5'
-     # print_stats
-     # (?)
-     # break
-     # else
-     # puts "Car Not listed."
-     # end
+puts "#{car1.manufacturer}"
+    # puts car1.price
+    #
+    # puts car1.year
+    #
+    # puts car1.manufacturer
