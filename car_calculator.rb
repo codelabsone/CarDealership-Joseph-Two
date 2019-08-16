@@ -1,4 +1,5 @@
 class Calculator
+
   def initialize(a, b)
     @a = a
     @b = b

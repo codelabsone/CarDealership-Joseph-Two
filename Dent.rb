@@ -1,3 +1,7 @@
+reuqire_relative 'Data'
+# require_relative "Car"
+# require_relative "Car_Dealership"
+
 class Sell_Price
 
    def initialize(base=5000)
@@ -6,19 +10,19 @@ class Sell_Price
 
 def dents
   @base -= 500
-  puts "#{@base} has dents."
+  puts "#{@base}"
 
 def stains
   @base -= 200
-  puts "#{@base} has stains."
+  puts "#{@base}"
 
 def accident
   @base -= @base
-  puts "#{@base} had an accident"
+  puts "#{@base}"
     end
   end
 end
 end
 
-car = Sell_Price.new(20000)
+car = Sell_Price.new(500)
 car.dents
